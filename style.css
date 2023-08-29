@@ -1,0 +1,42 @@
+.container {
+    width: 22rem;
+    height: 32rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.layout{
+    width: 23%;
+    margin:auto;
+    align-items: center;
+}
+
+.field {
+    text-align:end;
+    font-size: larger;
+    width: 19.5rem;
+    height: fit-content;
+    border-style: solid;
+    padding: 1rem;
+}
+
+button {
+    width: 4.5rem;
+    height: 4.5rem;
+    /* margin-right: 0.5rem;
+    margin-top: 0.5rem; */
+    margin: 0.5rem;
+}
+
+input{
+    width:19.5rem;
+    height:4.5rem;
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    display: none;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+  }
