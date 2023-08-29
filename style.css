@@ -20,6 +20,9 @@
     height: fit-content;
     border-style: solid;
     padding: 1rem;
+    box-shadow: 0px 0px 17px -6px gray;
+    border-radius: 15px;
+    border-color: transparent;
 }
 
 button {
